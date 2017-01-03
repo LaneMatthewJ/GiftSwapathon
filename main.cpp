@@ -86,7 +86,8 @@ int main() {
     //******************************************************************
     //******************************************************************
     
-    printSwapsToFile(children, childrenCount, giftCount, filename);
+    // Due to segmentation fault, I've commented this code out. Updates to come. 
+    // printSwapsToFile(children, childrenCount, giftCount, filename);
        
     
     // clean up memory!
