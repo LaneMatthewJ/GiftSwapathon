@@ -30,3 +30,5 @@ When it finds a better solution, that becomes the incumbent. The more incumbents
 The algorithm has, at least in retrospect, a potentially fatal flaw (i.e It is possible that a non optimal solution could occur, given that the optimal solution includes the first child having no ranked 1 gift. However, when running the code on a small segment with 5 children and 9 gifts, it seems to run perfectly. 
 
 The algorithm, otherwise,  works very well, at least on a handful of the given problems, however, it does not run past 17 gifts with 4 children. I believe it relies in some memory leak, however, I am not able to locate it. Equally, I am working on another algorithm, but wish to subtmit this first (The other algorithm is unfortunately not working). 
+
+Note: In this version, I apparently uploaded an old copy. The program segfaults for some bizarre reason when writing to file. I've commented that code out. It still prints the answers to the terminal. I'll eventually track down that error. 
